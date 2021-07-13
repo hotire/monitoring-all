@@ -28,6 +28,8 @@ dependencies {
     implementation("org.springframework.cloud:spring-cloud-starter-sleuth")
     runtimeOnly("com.h2database:h2")
     testImplementation("org.springframework.boot:spring-boot-starter-test")
+
+    implementation("io.micrometer:micrometer-registry-prometheus")
 }
 
 dependencyManagement {
