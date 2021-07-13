@@ -9,3 +9,7 @@ management:
         request:
           autotime:
             enabled: true
+    data:
+      repository:
+        autotime:
+          enabled: true

@@ -15,15 +15,23 @@ git : https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#actu
 management.metrics.web.server.request.autotime.enabled
 ~~~
 
+### WebFlux
 - Spring WebFlux Metrics
 ~~~
 management.metrics.web.server.request.autotime.enabled
 ~~~
 
 
+### Spring Data Repository Metrics
+~~~
+management.metrics.data.repository.autotime.enable
+~~~
 
 
-### micrometer-registry-prometheus
+
+
+
+## micrometer-registry-prometheus
 
 - git : https://github.com/micrometer-metrics/micrometer/tree/main/implementations/micrometer-registry-prometheus
 
