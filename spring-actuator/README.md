@@ -39,3 +39,7 @@ management.metrics.data.repository.autotime.enable
 GET /actuator/prometheus
 ~~~
 
+
+## logstash-logback-encoder
+
+- git : https://github.com/logstash/logstash-logback-encoder
