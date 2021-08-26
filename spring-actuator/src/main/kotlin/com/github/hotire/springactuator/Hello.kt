@@ -17,7 +17,6 @@ class Hello(
     var id: Long? = null
 )
 
-
 interface HelloRepository : JpaRepository<Hello, Long>
 
 @Service
@@ -26,8 +25,6 @@ class HelloService(private val helloRepository: HelloRepository) {
     fun create() = helloRepository.save(Hello())
     fun findAll() = helloRepository.findAll()
 }
-
-
 
 @RestController
 @RequestMapping("/hello")
