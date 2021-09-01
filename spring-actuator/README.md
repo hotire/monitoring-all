@@ -43,3 +43,8 @@ GET /actuator/prometheus
 ## logstash-logback-encoder
 
 - git : https://github.com/logstash/logstash-logback-encoder
+
+
+### Getting Started Spring Boot Actuator
+
+- https://www.baeldung.com/spring-boot-actuators
