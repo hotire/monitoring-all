@@ -28,7 +28,9 @@ management.metrics.data.repository.autotime.enable
 ~~~
 
 
+### Custom Metrics
 
+- error-rate : https://reflectoring.io/monitoring-error-rate-spring-boot/
 
 
 ## micrometer-registry-prometheus

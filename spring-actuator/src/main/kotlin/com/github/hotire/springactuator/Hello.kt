@@ -30,6 +30,8 @@ class HelloService(private val helloRepository: HelloRepository) {
 @RequestMapping("/hello")
 class HelloController(private val helloService: HelloService) {
 
+    val log by LoggerDelegate()
+
     @GetMapping
     fun list() = helloService.findAll()
 
@@ -38,4 +40,10 @@ class HelloController(private val helloService: HelloService) {
 
     @GetMapping("/create")
     fun create() = helloService.create()
+
+    @GetMapping("/error")
+    fun throwError() {
+        log.error("hello error")
+        throw IllegalStateException("throw hello error")
+    }
 }
