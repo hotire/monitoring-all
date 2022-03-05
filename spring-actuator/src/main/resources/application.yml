@@ -13,3 +13,8 @@ management:
       repository:
         autotime:
           enabled: true
+
+server:
+  tomcat:
+    mbeanregistry:
+      enabled: true
