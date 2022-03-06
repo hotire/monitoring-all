@@ -46,4 +46,9 @@ class HelloController(private val helloService: HelloService) {
         log.error("hello error")
         throw IllegalStateException("throw hello error")
     }
+
+    @GetMapping("/sleep")
+    fun sleep() {
+        Thread.sleep(5000L)
+    }
 }
