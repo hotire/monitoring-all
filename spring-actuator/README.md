@@ -38,7 +38,7 @@ management.metrics.data.repository.autotime.enable
 - git : https://github.com/micrometer-metrics/micrometer/tree/main/implementations/micrometer-registry-prometheus
 
 ~~~
-GET /actuator/prometheus
+    GET /actuator/prometheus
 ~~~
 
 
