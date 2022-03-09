@@ -43,7 +43,12 @@ class HelloController(private val helloService: HelloService) {
 
     @GetMapping("/error")
     fun throwError() {
-        log.error("hello error")
+        log.error("hello error message")
+        log.error("hello error {}", "my-error", IllegalStateException("throw hello error"))
+
+        log.error(IllegalStateException("throw hello error")) {
+            "hello error my-error"
+        }
         throw IllegalStateException("throw hello error")
     }
 
