@@ -32,6 +32,7 @@ dependencies {
     implementation("net.logstash.logback:logstash-logback-encoder:6.6")
     implementation("io.github.microutils:kotlin-logging:1.12.5")
     implementation("org.springframework.cloud:spring-cloud-starter-openfeign")
+    implementation("io.github.openfeign:feign-micrometer")
 }
 
 dependencyManagement {
