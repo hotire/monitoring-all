@@ -6,6 +6,11 @@
 
 또한 스크립트를 작성하여 테스트 시나리오를 만들 수 있다. 
 
+- https://github.com/naver/ngrinder
+
+- Installation Guide :https://github.com/naver/ngrinder/wiki/Installation-Guide
+- Quick-Start : https://github.com/naver/ngrinder/wiki/Quick-Start
+
 ### Load Test
 
 부하 테스트 혹은 스트레스 테스트라고 한다. 
